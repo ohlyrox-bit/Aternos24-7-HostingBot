@@ -1,7 +1,7 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "OmshimBot",
+    "username": "Bot",
     "password": "",
     "type": "offline"
   },
@@ -25,6 +25,16 @@
     "anti-afk": {
       "enabled": true,
       "sneak": true
+    },
+    "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 100000,
+      "messages": [
+        "I'm a regular player",
+        "Subscribe to Slobos!",
+        "I like to play Minecraft!"
+      ]
     },
     "chat-log": true,
     "auto-reconnect": true,
